@@ -4,6 +4,8 @@
  * Module dependencies.
  */
 
+var newrelic = require('newrelic');
+
 var app = require('../app');
 var debug = require('debug')('guessword:server');
 var http = require('http');
